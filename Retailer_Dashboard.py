@@ -22,7 +22,7 @@ st.markdown("""
 # === Hero Image & Introduction ===
 col1, col2 = st.columns([3, 2])
 with col1:
-    image_path = "C:/Users/anupr/OneDrive/Documents/FAIRMARK-DASHBOARD/OIP.webp"
+    image_path = "OIP.webp"
     if os.path.exists(image_path):
         st.image(image_path, use_container_width=True)
     else:
