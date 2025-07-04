@@ -56,7 +56,7 @@ with col1:
     </p>
     """, unsafe_allow_html=True)
 with col2:
-    img1 = "C:/Users/anupr/OneDrive/Documents/FAIRMARK-DASHBOARD/download.webp"
+    img1 = "download.webp"
     if os.path.exists(img1):
         st.image(img1, caption="Smarter Interactions")
 
@@ -73,7 +73,7 @@ with col3:
     </p>
     """, unsafe_allow_html=True)
 with col4:
-    img2 = "C:/Users/anupr/OneDrive/Documents/FAIRMARK-DASHBOARD/OIP.webp"
+    img2 = "OIP.webp"
     if os.path.exists(img2):
         st.image(img2, caption="Verified Shopper Targeting")
 
@@ -90,7 +90,7 @@ with col5:
     </p>
     """, unsafe_allow_html=True)
 with col6:
-    img3 = "C:/Users/anupr/OneDrive/Documents/FAIRMARK-DASHBOARD/OIP (1).webp"
+    img3 = "OIP (1).webp"
     if os.path.exists(img3):
         st.image(img3, caption="AI Trust Stack")
 
