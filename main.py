@@ -43,7 +43,7 @@ if view == "Retailer Dashboard":
     # === Hero Image & Introduction ===
     col1, col2 = st.columns([3, 2])
     with col1:
-        image_path = "C:/Users/anupr/OneDrive/Documents/FAIRMARK-DASHBOARD/OIP.webp"
+        image_path = "OIP.webp"
         if os.path.exists(image_path):
             st.image(image_path, use_container_width=True)
         else:
@@ -77,7 +77,7 @@ if view == "Retailer Dashboard":
         </p>
         """, unsafe_allow_html=True)
     with col2:
-        img1 = "C:/Users/anupr/OneDrive/Documents/fairmark-dashboard/download.webp"
+        img1 = "download.webp"
         if os.path.exists(img1):
             st.image(img1, caption="Smarter Interactions")
 
@@ -94,7 +94,7 @@ if view == "Retailer Dashboard":
         </p>
         """, unsafe_allow_html=True)
     with col4:
-        img2 = "C:/Users/anupr/OneDrive/Documents/fairmark-dashboard/OIP.webp"
+        img2 = "OIP.webp"
         if os.path.exists(img2):
             st.image(img2, caption="Verified Shopper Targeting")
 
@@ -111,7 +111,7 @@ if view == "Retailer Dashboard":
         </p>
         """, unsafe_allow_html=True)
     with col6:
-        img3 = "C:/Users/anupr/OneDrive/Documents/fairmark-dashboard/OIP (1).webp"
+        img3 = "OIP (1).webp"
         if os.path.exists(img3):
             st.image(img3, caption="AI Trust Stack")
 
