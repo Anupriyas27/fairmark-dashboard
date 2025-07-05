@@ -18,7 +18,7 @@ view = st.sidebar.radio("Select a Dashboard:", ["Retailer Dashboard", "📈 Futu
 
 if view == "Retailer Dashboard":
     # === PIN Protection ===
-    st.image("C:/Users/anupr/OneDrive/Documents/fairmark-dashboard/download (1).webp", use_container_width=True)
+    st.image("download (1).webp", use_container_width=True)
     pin = st.text_input("🔐 Enter Access PIN to Unlock Retailer Dashboard:", type="password")
     if pin != "1234":
         st.warning("This dashboard is protected. Enter the correct PIN to proceed.")
