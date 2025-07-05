@@ -52,7 +52,7 @@ if view == "Retailer Dashboard":
     with col2:
         st.markdown("""
             <h1 style='font-size: 65px;'>Trust-Centered AI Marketing<br></h1>
-            <p style='font-size:50px;'>
+            <p style='font-size:30px;'>
                 FairMark empowers ethical marketing teams with transparent, trustworthy AI tools.
                 Our real-time automation platform lets you detect bias, explain predictions,
                 enforce compliance, and mitigate risks — all from a unified dashboard.
